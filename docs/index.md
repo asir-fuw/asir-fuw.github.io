@@ -1,0 +1,4 @@
+---
+title: Inicio
+---
+- [Miscelánea](miscelanea)
