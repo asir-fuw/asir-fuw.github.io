@@ -1,11 +1,9 @@
-- title: Getting Started
+- title: Inicio
   docs:
   - home
   - themes
   - customization
 
-- title: Examples
+- title: Arduino
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - arduino/ensamblador
