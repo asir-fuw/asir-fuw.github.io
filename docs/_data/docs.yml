@@ -3,9 +3,11 @@
   - home
   
 - title: Introducción a los sistemas informáticos
+  docs:
   - introduccion-sistemas-informaticos
   
 - title: Componentes del PC  
+  docs:
   - componentes-pc
 
 - title: Arduino
