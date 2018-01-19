@@ -109,7 +109,7 @@ Mediante las directivas `.cseg`, `.dseg` y `.eseg` estructuramos nuestro program
 ; segmento de código
 .cseg
 
-main:  				; etiqueta (nombre seguido de :)
+main:				; etiqueta (nombre seguido de :)
     ldi   r16, 24  	; R16 <- 24
     ldi   r17, 87  	; R17 <- 87
     dec   r16  		; R16 <- R16 - 1
