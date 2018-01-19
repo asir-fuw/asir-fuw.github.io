@@ -12,7 +12,6 @@
 
 - title: Arduino
   docs:
-  - arduino
   - arduino/ensamblador
   - arduino/atmel-studio
   - arduino/proyectos
