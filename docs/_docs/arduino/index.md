@@ -1,6 +1,6 @@
 ---
 title: Arduino
-permalink: /docs/arduino
+permalink: /docs/arduino/
 ---
 
 - [Ensamblador](ensamblador)

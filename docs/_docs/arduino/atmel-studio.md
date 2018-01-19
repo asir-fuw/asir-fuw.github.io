@@ -1,6 +1,6 @@
 ---
 title: Atmel Studio
-permalink: /doc/arduino/atmel-studio
+permalink: /docs/arduino/atmel-studio/
 description: Minitutorial del entorno de desarrollo Atmel Studio.
 ---
 Explicar cómo se utiliza Atmel Studio para crear un proyecto, compilarlo y depurarlo.
