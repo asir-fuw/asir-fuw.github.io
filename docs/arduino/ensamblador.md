@@ -1,5 +1,6 @@
 ---
 title: Ensamblador Arduino
+description: Guía para aprender a programar la Arduino UNO en ensamblador.
 ---
 # Ensamblador de la Arduino
 
@@ -90,7 +91,7 @@ La siguiente es la estructura básica de un programa en ensamblador AVR:
 Mediante las directivas `.cseg`, `.dseg` y `.eseg` estructuramos nuestro programa:
 
 - `.cseg` marca el comienzo del segmento de código (memoria FLASH)
--  `.dseg` marca el comienzo del segmento de datos volátiles (memoria SRAM)
+- `.dseg` marca el comienzo del segmento de datos volátiles (memoria SRAM)
 - `.eseg`  marca el comienzo del segmento de datos persistentes (memoria EEPROM)
 
 > Las directivas aportan información al compilador y su nombre siempre empieza por un punto (`.`)
@@ -102,7 +103,7 @@ Mediante las directivas `.cseg`, `.dseg` y `.eseg` estructuramos nuestro program
  * Mi primer programa
  * 1) Pone un 24 en R16 
  * 2) Pone un 87 en R17
- * 3) Decrementa R16 (R16<- R16 – 1)
+ * 3) Decrementa R16 (R16 <- R16 – 1)
  * 4) Vacía R16 (R16 <-0)
  */
 
