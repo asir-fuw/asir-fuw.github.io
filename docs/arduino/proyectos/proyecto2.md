@@ -4,7 +4,7 @@ El proyecto consiste en hacer parpadear (encender y apagar) el led conectado al 
 
 Esquema físico del proyecto:
 
-![Esquema del proyecto](imagenes/proyecto1-esquema.png)
+![Esquema del proyecto](imagenes/proyecto2-esquema.png)
 
 Programa en ensamblador AVR:
 

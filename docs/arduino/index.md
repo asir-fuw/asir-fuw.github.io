@@ -1,6 +1,7 @@
 ---
 title: Arduino
 ---
-- [Introducción a los sistemas informáticos](introduccion-sistemas-informaticos/)
+# Arduino
+
 - [Proyectos](proyectos)
 
