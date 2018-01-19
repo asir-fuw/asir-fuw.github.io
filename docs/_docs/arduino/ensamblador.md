@@ -1,6 +1,7 @@
 ---
 title: Ensamblador Arduino
 description: Guía para aprender a programar la Arduino UNO en ensamblador.
+permalink: /docs/arduino/ensamblador/
 ---
 # Ensamblador de la Arduino
 
