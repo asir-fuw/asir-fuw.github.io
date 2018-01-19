@@ -1,9 +1,15 @@
 - title: Inicio
   docs:
   - home
-  - themes
-  - customization
+  
+- title: Introducción a los sistemas informáticos
+  - introduccion-sistemas-informaticos
+  
+- title: Componentes del PC  
+  - componentes-pc
 
 - title: Arduino
   docs:
+  - arduino
   - arduino/ensamblador
+  - arduino/atmel-studio

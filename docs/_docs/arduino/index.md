@@ -1,9 +1,7 @@
 ---
 title: Arduino
-description: Documentación sobre la Arduino.
+permalink: /docs/arduino
 ---
-
-# Arduino
 
 - [Ensamblador](ensamblador)
 - [Atmel Studio](atmel-studio)

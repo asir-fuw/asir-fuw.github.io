@@ -1,4 +1,7 @@
-# Proyecto 5: Semáforos con pulsador
+---
+title: Proyecto 5: Semáforos con pulsador
+permalink: /docs/arduino/proyectos/proyecto5
+---
 
 El proyecto consiste en implementar un semáforo para coches con 3 LEDs y otro para peatones con 2 LEDs,  de forma que el semáforo de peatones sólo se activará si se pulsa el botón.
 

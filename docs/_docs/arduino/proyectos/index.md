@@ -1,8 +1,7 @@
 ---
 title: Proyectos Arduino
+permalink: /docs/arduino/proyectos
 ---
-# Proyectos Arduino
-
 Proyectos para programar la Arduino UNO en lenguaje ensamblador:
 
 - [Proyecto 1: Encender un LED](proyecto1)

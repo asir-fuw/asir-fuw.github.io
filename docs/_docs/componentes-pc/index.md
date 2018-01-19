@@ -1,9 +1,6 @@
 ---
-title: Compontes del PC
+title: Componentes del PC
+permalink: /docs/componentes-pc
 ---
-- [¿Qué es un PC?](que-es-pc)
-- [Microprocesador](microprocesador)
-- [Memoria RAM](memoria-ram)
-- [Placa base](placa-base)
-- ​
+<TODO>
 

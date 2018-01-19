@@ -1,18 +1,11 @@
-# Site settings
 title: Fundamentos de Hardware
 email: fran.profe.icm@gmail.com
 description: Apuntes, tutoriales y actividades del módulo profesional FUW de 1ºASIR.
 
-baseurl: "/FUW"
-#url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-#git_address: https://github.com/aksakalli/jekyll-doc-theme
-#git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+baseurl: /FUW
 
-# theme options from https://bootswatch.com/
-# comment out this to use default Bootstrap
 bootwatch: paper
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 gems:

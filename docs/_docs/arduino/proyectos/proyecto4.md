@@ -1,4 +1,7 @@
-# Proyecto 4: Semáforo
+---
+title: Proyecto 4: Semáforo
+permalink: /docs/arduino/proyectos/proyecto4
+---
 
 El proyecto consiste en implementar un semáforo con tres leds conectados a los pines 12, 11 y 10 de la Arduino UNO.
 
