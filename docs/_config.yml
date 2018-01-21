@@ -1,3 +1,4 @@
+lang: es-ES
 title: Fundamentos de Hardware
 email: fran.profe.icm@gmail.com
 description: Apuntes, tutoriales y actividades del módulo profesional FUW de 1ºASIR.
@@ -7,8 +8,10 @@ baseurl: /FUW
 bootwatch: paper
 
 markdown: kramdown
+
 highlighter: rouge
-gems:
+
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
@@ -20,7 +23,9 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
+  
 timezone: Europe/London
+
 defaults:
 - scope:
     path: _posts
@@ -28,7 +33,6 @@ defaults:
   values:
     layout: post
     sectionid: blog
-
 - scope:
     path: _docs
     type: docs
@@ -40,7 +44,7 @@ defaults:
 
 collections:
   docs:
-    permalink: /:collection/:path/
+    permalink: /:collection/:path
     output: true
   posts:
     permalink: /blog/:year/:month/:day/:title/

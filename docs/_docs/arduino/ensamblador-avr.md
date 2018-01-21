@@ -1,8 +1,6 @@
 ---
 title: Ensamblador
-permalink: /docs/arduino/ensamblador/
 ---
-
 **Arduino UNO** es una placa de circuito impreso con un microcontrolador [**ATmega328p**](http://www.microchip.com/wwwproducts/en/ATmega328p). Este microcontrolador es desarrollado por la compañía **Atmel** (ahora Microchip) y su arquitectura es **AVR**.
 
 ![Arduino UNO](imagenes/arduino-uno.png)

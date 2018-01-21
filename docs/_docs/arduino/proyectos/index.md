@@ -1,6 +1,5 @@
 ---
 title: Proyectos Arduino
-permalink: /docs/arduino/proyectos/
 ---
 Proyectos para programar la Arduino UNO en lenguaje ensamblador:
 

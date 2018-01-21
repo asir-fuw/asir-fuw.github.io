@@ -1,6 +1,5 @@
 ---
-title: Proyecto 3: Led con pulsador
-permalink: /docs/arduino/proyectos/proyecto3
+title: Proyecto 3 - Led con pulsador
 ---
 
 El proyecto consiste en encender el led conectado al pin 13 de la Arduino UNO cuando se pulse el interruptor conectado al pin 2.

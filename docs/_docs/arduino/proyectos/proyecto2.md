@@ -1,6 +1,5 @@
 ---
-title: Proyecto 2: Led intermitente
-permalink: /docs/arduino/proyectos/proyecto2
+title: Proyecto 2 - Led intermitente
 ---
 
 El proyecto consiste en hacer parpadear (encender y apagar) el led conectado al pin 12 de la Arduino UNO. 

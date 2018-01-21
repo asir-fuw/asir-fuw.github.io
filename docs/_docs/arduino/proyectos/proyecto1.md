@@ -1,6 +1,5 @@
 ---
-title: Proyecto 1: Encender un led
-permalink: /docs/arduino/proyectos/proyecto1
+title: Proyecto 1 - Encender un led
 ---
 
 El proyecto consiste en encender un led conectado al pin 12 de la Arduino UNO. 
