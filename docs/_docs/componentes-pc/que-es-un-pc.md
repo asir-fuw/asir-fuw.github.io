@@ -1,5 +1,5 @@
-﻿---
-title: ¿Qué es un PC?
+---
+title: ¿Que es un PC?
 ---
 
 Un *PC* es no se que no se cuanto.
@@ -7,6 +7,8 @@ Un *PC* es no se que no se cuanto.
 ## Apartado 1
 
 Otra texto.
+
+* gb
 
 - puntos 1
 - punt o2
