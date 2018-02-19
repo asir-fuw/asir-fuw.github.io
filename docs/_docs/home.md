@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bienvenid@
 redirect_from: /docs/index.html
 ---
