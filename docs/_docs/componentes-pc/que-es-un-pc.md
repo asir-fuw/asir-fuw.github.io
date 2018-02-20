@@ -3,7 +3,7 @@ title: ¿Que es un PC?
 author: Francisco J. González Pérez
 ---
 
-# Orígenes del PC
+## Orígenes del PC
 
 *  Son las _siglas_  de **"Personal Computer"**.
   * En español, ordenador personal.
@@ -72,10 +72,10 @@ author: Francisco J. González Pérez
 
   ![PC de IBM][9]
 
-  >(Aunque hoy en día han cambiado tanto que ya no tienen casi nada que ver con los PC actuales).
+  > (Aunque hoy en día han cambiado tanto que ya no tienen casi nada que ver con los PC actuales).
 
 
-##PC actuales
+## PC actuales
 
 * Los microprocesadore actuales todavía mantienen *cierta compatibilidad* con el 8086.
   * Se suele denominar **arquitectura x86 de Intel**.
