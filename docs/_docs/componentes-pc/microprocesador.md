@@ -2,16 +2,6 @@
 title: Microprocesador
 ---
 
-<TODO>
-
-- Falta añadir imágenes.
-- Falta actualizar la información.
-- La versión actual es la transcripción del PDF v20141027
-- La parte que contiene los ejemplos de refrigeracion va a ser unificada en una seccion dentro de los tipos de refigeracion dedicada a unicamente a tal fin.
-
-
-
-
 
 
 ## Introducción
@@ -245,66 +235,263 @@ Heatpipe
 
 
 
-
 Registros
-•Pequeñas memorias internas al micro muy rápidas –Almacenan datos, direcciones, instrucciones, … •El tamaño de estos registros determina en parte la arquitectura del microprocesador: –Intel 4004: 4 bits –Intel 8088: 8 bits –Intel 8088: 8 bits –Intel 8086-286: 16 bits –Intel 386 ó Pentium, entre otros: 32 bits –Intel Corei3-i7: 64 bits –NOTA: –Bit = unidad mínima de información en informática –Su nombre proviene de “BinarydigIT” (dígito binario) –Puede valer 0 ó 1
+
+Pequeñas memorias internas al micro muy rápidas
+
+Almacenan datos, direcciones, instrucciones, …
+
+El tamaño de estos registros determina en parte la arquitectura del microprocesador:
+
+Intel 4004: 4 bits
+
+Intel 8088: 8 bits
+
+Intel 8086-286: 16 bits
+
+Intel 386 ó Pentium, entre otros: 32 bits
+
+Intel Corei3-i7: 64 bits
+
+NOTA:
+
+Bit = unidad mínima de información en informática
+
+Su nombre proviene de “BinarydigIT” (dígito binario)
+
+Puede valer 0 ó 1
+
+
 
 
 
 Unidad aritmético lógica
-•Se encarga de ejecutar operaciones aritméticas y lógicassobre números enteros. •Los ordenadores actuales son “superescalares”. “superescalares”. –Tienen unidades de ejecución repetidas •Esto implica que los microprocesadores actuales tienen más de una UAL.
+
+Se encarga de ejecutar operaciones aritméticas y lógicassobre números enteros.
+
+Los ordenadores actuales son “superescalares”.
+
+Tienen unidades de ejecución repetidas
+
+Esto implica que los microprocesadores actuales tienen más de una UAL.
+
+
 
 
 
 Unidad de coma flotante
-•Realiza operaciones con números en coma flotante (números decimales). •LA FPU se incluyó en el micro a partir del Intel 486. •Los primeros microprocesadores:
+
+Realiza operaciones con números en coma flotante (números decimales).
+
+LA FPU se incluyó en el micro a partir del Intel 486.
+
+Los primeros microprocesadores:
+
 Microprocesador Intel 386
-•Los primeros microprocesadores: –Del 8086 al 386 no incluían esta unidad –Había dos alternativas: •“Emular” los cálculos por software, lo que era muy lento •Incluir un coprocesador matemático –Chip (muy caro) denominado comúnmente el “copro” –Las placas tenían un zócalo para su colocación –Para el i286 era el i287, para el i386 el i387, …
+
+Los primeros microprocesadores:
+
+Del 8086 al 386 no incluían esta unidad
+
+Había dos alternativas:
+
+“Emular” los cálculos por software, lo que era muy lento
+
+Incluir un coprocesador matemático
+
+Chip (muy caro) denominado comúnmente el “copro”
+
+Las placas tenían un zócalo para su colocación
+
+Para el i286 era el i287, para el i386 el i387, …
+
+
 
 
 
 Unidad de control
-•Como su nombre indica, es la unidad que lleva el control. •Dirige al resto de unidades del microprocesador. microprocesador. •Recupera las instrucciones de la memoria, las descodifica  y las ejecuta. –Ciclo de ejecución de cada instrucción –En función de la instrucción, da las órdenes oportunas al resto de componentes
+
+Como su nombre indica, es la unidad que lleva el control.
+
+Dirige al resto de unidades del microprocesador. microprocesador.
+
+Recupera las instrucciones de la memoria, las descodifica  y las ejecuta.
+
+Ciclo de ejecución de cada instrucción
+
+En función de la instrucción, da las órdenes oportunas al resto de componentes
+
+
 
 
 
 Arquitectura x86
-•Todo empezó con el Intel 8086 –Y continuó con el 80186, el 80286, el 80386, el 80486, Pentium, etc. •Se dice que todos pertenecen a la familia “x86” porque sus arquitecturas son compatibles –¿Qué significa? •Que un programa escrito para el 8086 funcionará en sus predecesores. –¿Cómo es posible? –¿Cómo es posible? •Manteniendo el juego de instrucciones, entre otras cosas. –NOTA: •Lo único que entiende el microprocesador es el código máquina(lenguaje de más bajo nivel, 0s y 1s). •Los programas para ejecutarlos tienen que estar en código máquina. •Cada microprocesador tiene su juego de instrucciones, y ese conjunto de instrucciones forman los elementos del lenguaje máquina •La arquitectura se ha mejorado, manteniendo la compatibilidad básica
+
+Todo empezó con el Intel 8086
+
+Y continuó con el 80186, el 80286, el 80386, el 80486, Pentium, etc.
+
+Se dice que todos pertenecen a la familia “x86” porque sus arquitecturas son compatibles
+
+¿Qué significa?
+
+Que un programa escrito para el 8086 funcionará en sus predecesores.
+
+¿Cómo es posible?
+
+Manteniendo el juego de instrucciones, entre otras cosas.
+
+NOTA:
+
+Lo único que entiende el microprocesador es el código máquina(lenguaje de más bajo nivel, 0s y 1s).
+
+Los programas para ejecutarlos tienen que estar en código máquina.
+
+Cada microprocesador tiene su juego de instrucciones, y ese conjunto de instrucciones forman los elementos del lenguaje máquina
+
+La arquitectura se ha mejorado, manteniendo la compatibilidad básica
+
+
 
 
 
 Nuevas instrucciones x86 (I)
-•MMX –En 1996, Intel añadió nuevas instrucciones con el Pentium MMX. –Este nuevo conjunto de –Este nuevo conjunto de instrucciones se llamó MMX. –Eran para agilizar operaciones multimediapara vídeo o sonido. –También se incluyeron 8 nuevos registros de 64 bits. –Aquí empezó la carrera. 
+
+MMX
+
+En 1996, Intel añadió nuevas instrucciones con el Pentium MMX.
+
+Este nuevo conjunto de instrucciones se llamó MMX.
+
+Eran para agilizar operaciones multimediapara vídeo o sonido.
+
+También se incluyeron 8 nuevos registros de 64 bits.
+
+Aquí empezó la carrera. 
+
+
 
 
 
 Nuevas instrucciones x86 (II)
-•3DNow! –AMD no quiso quedarse atrás. –Añadió también nuevas instrucciones a su microprocesador AMD K6-2. –Este conjunto de instrucciones se llamó –Este conjunto de instrucciones se llamó 3DNow!. –Su objetivo era mejorar el rendimiento en los cálculos para gráficos 3D. –Más tarde se ampliaron las instrucciones: Enhanced 3DNow!(Athlon) y 3DNow! Professional (Athlon XP)
+
+3DNow!
+
+AMD no quiso quedarse atrás.
+
+Añadió también nuevas instrucciones a su microprocesador AMD K6-2.
+
+Este conjunto de instrucciones se llamó 3DNow!.
+
+Su objetivo era mejorar el rendimiento en los cálculos para gráficos 3D.
+
+Más tarde se ampliaron las instrucciones: Enhanced 3DNow!(Athlon) y 3DNow! Professional (Athlon XP)
 
 
 
 Nuevas instrucciones x86 (II)
-•Intel siguió y siguió añadiendo nuevas instrucciones a los microprocesadores de la familia x86: –SSE(Streaming SIMD Extensions) en el Pentium III (AMD las incorporó más tarde a su Athlon XP) –SSE2en el Pentium 4 (AMD las soporta en su Athlon 64) –SSE2en el Pentium 4 (AMD las soporta en su Athlon 64) –SSE3en la última revisión del Pentium 4 (Prescott) –SSSE3y SSE4en el Core 2. •AMD, por su parte, no se ha interesado por SSSE3 y SSE4: –Incorpora SSE128 ó SSE4a.
+
+Intel siguió y siguió añadiendo nuevas instrucciones a los microprocesadores de la familia x86:
+
+SSE(Streaming SIMD Extensions) en el Pentium III (AMD las incorporó más tarde a su Athlon XP)
+
+SSE2en el Pentium 4 (AMD las soporta en su Athlon 64)
+
+SSE2en el Pentium 4 (AMD las soporta en su Athlon 64)
+
+SSE3en la última revisión del Pentium 4 (Prescott)
+
+SSSE3y SSE4en el Core 2.
+
+AMD, por su parte, no se ha interesado por SSSE3 y SSE4:
+
+Incorpora SSE128 ó SSE4a.
+
+
 
 
 
 Aclaraciones
-a)Intely AMDson actualmente los principales fabricantes de microprocesadorespara PC –Hubo otros fabricantes, como Cyrix. b)Los microprocesadores que fabrica b)Los microprocesadores que fabrica AMD también pertenecen a la familia x86. c)Para sacar provecho a las nuevas instruccionesañadidas al juego de instrucciones del microprocesador, los programadores (o más bien los compiladores)  las tienen que tener en cuenta.
+
+a)Intely AMDson actualmente los principales fabricantes de microprocesadorespara PC
+
+Hubo otros fabricantes, como Cyrix.
+
+b)Los microprocesadores que fabrica b)Los microprocesadores que fabrica AMD también pertenecen a la familia x86.
+
+c)Para sacar provecho a las nuevas instruccionesañadidas al juego de instrucciones del microprocesador, los programadores (o más bien los compiladores)  las tienen que tener en cuenta.
+
+
 
 
 
 El mundo de los 64 bits (I)
-•Desde el 386 (año 1986) el tamaño de la mayoría de los registros seguían siendo de 32 bits –Por lo tanto, direccionamiento de memoria con 32 –Por lo tanto, direccionamiento de memoria con 32 bits. –Así, sólo es posible acceder hasta 4GB de memoria. –Era el momento de actualizar a los 64 bits.
+
+Desde el 386 (año 1986) el tamaño de la mayoría de los registros seguían siendo de 32 bits
+
+Por lo tanto, direccionamiento de memoria con 32
+
+Por lo tanto, direccionamiento de memoria con 32 bits.
+
+Así, sólo es posible acceder hasta 4GB de memoria.
+
+Era el momento de actualizar a los 64 bits.
+
+
 
 
 
 El mundo de los 64 bits (II)
-•Intel tomó la iniciativa: –Decidió abandonar la arquitectura IA-32 (x86 de 32 bits). –Pasó directamente a los 64 bits con la nueva arquitectura IA-64. –Esto se plasmó en los microprocesadores –Esto se plasmó en los microprocesadores Itanium (2001) e Itanium2 (2002), muy avanzados. –Necesita software específico para estos microprocesadores, y eso lleva tiempo. –Incluyeron un modo de compatibilidad con IA32, •Para utilizar el software de 32 bits existente. •Pero la “emulación” era muy lenta. –Fue un fracaso comercial.
+
+Intel tomó la iniciativa:
+
+Decidió abandonar la arquitectura IA-32 (x86 de 32 bits).
+
+Pasó directamente a los 64 bits con la nueva arquitectura IA-64.
+
+Esto se plasmó en los microprocesadores Itanium (2001) e Itanium2 (2002), muy avanzados.
+
+Necesita software específico para estos microprocesadores, y eso lleva tiempo.
+
+Incluyeron un modo de compatibilidad con IA32,
+
+Para utilizar el software de 32 bits existente.
+
+Pero la “emulación” era muy lenta.
+
+Fue un fracaso comercial.
+
+
 
 
 
 El mundo de los 64 bits (III)
-•AMD tomó la dirección contraria: –Complementarla arquitectura IA-32. –Surge así la llamada arquitectura x86-64 •AMD la denominó AMD64 •También se denomina x64. –Surgen así los microprocesadores Opteron (2003), Athlon 64 –Surgen así los microprocesadores Opteron (2003), Athlon 64 (2003) y Phenom (2007). –Sigue funcionando el software creado para micros x86 a alta velocidad. –Y además soporta nuevo software de 64 bits. –En las direcciones de memoria no se llegó aún a los 64 bits pero sí a los 44 bits •¡Hasta 16 TB de RAM! –¡Éxito rotundo! •Intel adoptó esta nueva arquitectura y la retocó para denominarla Intel64 (antes IA-32e y EM64T = Extended Memory Technology).
+
+AMD tomó la dirección contraria:
+
+Complementarla arquitectura IA-32.
+
+Surge así la llamada arquitectura x86-64
+
+AMD la denominó AMD64
+
+También se denomina x64.
+
+Surgen así los microprocesadores Opteron (2003), Athlon 64 (2003) y Phenom (2007).
+
+Sigue funcionando el software creado para micros x86 a alta velocidad.
+
+Y además soporta nuevo software de 64 bits.
+
+En las direcciones de memoria no se llegó aún a los 64 bits pero sí a los 44 bits
+
+¡Hasta 16 TB de RAM!
+
+¡Éxito rotundo!
+
+Intel adoptó esta nueva arquitectura y la retocó para denominarla Intel64 (antes IA-32e y EM64T = Extended Memory Technology).
+
+
 
 
 
@@ -384,37 +571,154 @@ Microprocesadores con núcleo múltiple
 
 
 Overclocking
-•Forzar al procesador a que trabaje a un frecuencia superior (+MHz) para las que ha sido diseñado •¿Cómo? –Aumentar el multiplicador o la frecuencia del FSB desde el “BIOS Setup” –No todos los micros de Intel permiten hacerlo •Gama “K” o “Extreme” permiten cambiar multiplicador. •Gama “K” o “Extreme” permiten cambiar multiplicador. •Otros modelos vienen bloqueados. •Ventajas –Podemos mejorar el rendimiento del equipo sin gastar dinero. •Desventajas –Acortan la vida útil del microprocesador. –Pérdida de garantía. –Puede ser necesario mejorar la refrigeración del micro. –Alto riesgo de quemar el micro.
+
+Forzar al procesador a que trabaje a un frecuencia superior (+MHz) para las que ha sido diseñado
+
+¿Cómo?
+
+–Aumentar el multiplicador o la frecuencia del FSB desde el “BIOS Setup”
+
+–No todos los micros de Intel permiten hacerlo •Gama “K” o “Extreme” permiten cambiar multiplicador.
+
+Gama “K” o “Extreme” permiten cambiar multiplicador.
+
+Otros modelos vienen bloqueados.
+
+Ventajas
+
+–Podemos mejorar el rendimiento del equipo sin gastar dinero.
+
+Desventajas
+
+–Acortan la vida útil del microprocesador.
+
+–Pérdida de garantía.
+
+–Puede ser necesario mejorar la refrigeración del micro.
+
+–Alto riesgo de quemar el micro.
+
+
 
 
 
 Hyperthreading
-•Tecnología de los micros de Intel •En qué consiste: –A veces la CPU no necesita un ciclo completo para ejecutar una instrucción –Puede ejecutar las instrucciones de otro hilo (thread) –Puede ejecutar las instrucciones de otro hilo (thread) en el tiempo sobrante •Intel asegura una mejora de 15-30% en el rendimiento de los micros •Sólo en sistemas operativos multihilo •Disponible desde el Pentium 4 (2000-2008)
+
+Tecnología de los micros de Intel
+
+En qué consiste:
+
+–A veces la CPU no necesita un ciclo completo para ejecutar una instrucción
+
+–Puede ejecutar las instrucciones de otro hilo (thread)
+
+–Puede ejecutar las instrucciones de otro hilo (thread) en el tiempo sobrante
+
+Intel asegura una mejora de 15-30% en el rendimiento de los micros
+
+Sólo en sistemas operativos multihilo
+
+Disponible desde el Pentium 4 (2000-2008)
+
+
 
 
 
 VT-x y AMD-V
-•Son extensiones incluidas por los microprocesadores para favorecer la virtualización. •Estas extensiones se denominan: –VT-x, en los microprocesadores de Intel –VT-x, en los microprocesadores de Intel •Primera vez en modelos 662 y 672 de Pentium 4 (2005) –AMD-V, en los microprocesadores de AMD •Primera vez en Athlon 64 (Orleans), Athlon 64 x2 y Anthlon 64 FX (Windsor) (2006) . •Permiten que una máquina huésped (host) pueda ejecutar una máquina virtual (guest) sin recurrir a la emulación.
+
+Son extensiones incluidas por los microprocesadores para favorecer la virtualización.
+
+Estas extensiones se denominan:
+
+–VT-x, en los microprocesadores de Intel
+
+–VT-x, en los microprocesadores de Intel
+
+Primera vez en modelos 662 y 672 de Pentium 4 (2005)
+
+–AMD-V, en los microprocesadores de AMD
+
+Primera vez en Athlon 64 (Orleans), Athlon 64 x2 y Anthlon 64 FX (Windsor) (2006) .
+
+Permiten que una máquina huésped (host) pueda ejecutar una máquina virtual (guest) sin recurrir a la emulación.
+
+
 
 
 
 Intel Smart Cache
-•Tecnología de los micros de Intel •Consiste en la arquitectura que permite a los núcleos compartir dinámicamente el último nivel de caché (L2 ó L3) último nivel de caché (L2 ó L3) •Por ejemplo: si un núcleo la necesita, puede usar toda la caché L2 ó L3 
+
+Tecnología de los micros de Intel
+
+Consiste en la arquitectura que permite a los núcleos compartir dinámicamente el último nivel de caché (L2 ó L3) último nivel de caché (L2 ó L3)
+
+Por ejemplo: si un núcleo la necesita, puede usar toda la caché L2 ó L3 
 46
 
 
 
+
+
 Intel Turbo Boost
-•Tecnología de los micros de Intel •Consiste en un overclocking automático •El microprocesador aumenta su rendimiento cuando es necesario. es necesario. •Se activan en función del número de núcleos activos y temperatura del microprocesador, entre otros factores. –Por ejemplo: si hay núcleos inactivos (infrautilizados), se “overclockean” los núcleos activos.
+
+Tecnología de los micros de Intel
+
+Consiste en un overclocking automático
+
+El microprocesador aumenta su rendimiento cuando es necesario. es necesario.
+
+Se activan en función del número de núcleos activos y temperatura del microprocesador, entre otros factores.
+
+–Por ejemplo: si hay núcleos inactivos (infrautilizados), se “overclockean” los núcleos activos.
+
+
 
 
 
 Physical Address Extension (PAE)
-•Característica de los micros de 32 bits (x86). •Por su limitación, físicamente sólo pueden acceder a 4GB de memoria física. •PAE les permite utilizar hasta 64GB. •El micro puede manejar direcciones de memoria de hasta 36 •El micro puede manejar direcciones de memoria de hasta 36 bits. –Hasta 64GB de memoria física. •Disponible desde el Intel Pentium Pro y AMD Athlon (año 1995). •Se solía activar desde el S.O. para resolver problemas del mapeo de dispositivos E/S (MMIO)
+
+Característica de los micros de 32 bits (x86).
+
+Por su limitación, físicamente sólo pueden acceder a 4GB de memoria física.
+
+PAE les permite utilizar hasta 64GB.
+
+El micro puede manejar direcciones de memoria de hasta 36
+
+El micro puede manejar direcciones de memoria de hasta 36 bits.
+
+–Hasta 64GB de memoria física.
+
+Disponible desde el Intel Pentium Pro y AMD Athlon (año 1995).
+
+Se solía activar desde el S.O. para resolver problemas del mapeo de dispositivos E/S (MMIO)
+
+
 
 
 
 Microarquitecturas de Intel
-•El conjunto de instrucciones de la arquitectura (denominado ISA) es el mismo para todos. •Una microarquitectura es como un micro implementa el ISA. •Intel les da unos nombres en clave (codename). •Por ejemplo: •Por ejemplo: –Broadwell (2014): 14 nm –Haswell (2013): 22 nm, socket LGA 1150 –Ivy Bridge (2012): 22 nm, socket LGA2011, LGA1155 –Sandy Bridge (2011): 32 nm, socket LGA2011, LGA1155 –Westmere (2010): 32 nm, socket LGA 1156 –Nehalem (2008): 45nm
+
+El conjunto de instrucciones de la arquitectura (denominado ISA) es el mismo para todos.
+
+Una microarquitectura es como un micro implementa el ISA.
+
+Intel les da unos nombres en clave (codename).
+
+Por ejemplo:
+
+Por ejemplo:
+
+–Broadwell (2014): 14 nm
+
+–Haswell (2013): 22 nm, socket LGA 1150
+
+–Ivy Bridge (2012): 22 nm, socket LGA2011, LGA1155
+
+–Sandy Bridge (2011): 32 nm, socket LGA2011, LGA1155
+
+–Westmere (2010): 32 nm, socket LGA 1156
+
+–Nehalem (2008): 45nm
 
 
