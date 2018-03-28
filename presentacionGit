@@ -1,0 +1,188 @@
+Microsoft Windows [Versión 10.0.15063]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Fran>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\Fran>cd Desktop
+
+C:\Users\Fran\Desktop>git clone https://github.com/fvarrui/FUW.git
+Cloning into 'FUW'...
+remote: Counting objects: 489, done.
+remote: Compressing objects: 100% (333/333), done.
+remote: Total 489 (delta 142), reused 453 (delta 117), pack-reused 0
+Receiving objects: 100% (489/489), 3.48 MiB | 54.00 KiB/s, done.
+Resolving deltas: 100% (142/142), done.
+Checking out files: 100% (182/182), done.
+
+C:\Users\Fran\Desktop>cd FUW
+
+C:\Users\Fran\Desktop\FUW>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: C249-DBC9
+
+ Directorio de C:\Users\Fran\Desktop\FUW
+
+22/01/2018  12:34    <DIR>          .
+22/01/2018  12:34    <DIR>          ..
+22/01/2018  12:34    <DIR>          docs
+22/01/2018  12:34                 8 README.md
+               1 archivos              8 bytes
+               3 dirs  407.442.350.080 bytes libres
+
+C:\Users\Fran\Desktop\FUW>cd .git
+
+C:\Users\Fran\Desktop\FUW\.git>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: C249-DBC9
+
+ Directorio de C:\Users\Fran\Desktop\FUW\.git
+
+22/01/2018  12:34               297 config
+22/01/2018  12:33                73 description
+22/01/2018  12:34                23 HEAD
+22/01/2018  12:33    <DIR>          hooks
+22/01/2018  12:34            20.420 index
+22/01/2018  12:33    <DIR>          info
+22/01/2018  12:34    <DIR>          logs
+22/01/2018  12:33    <DIR>          objects
+22/01/2018  12:34               114 packed-refs
+22/01/2018  12:34    <DIR>          refs
+               5 archivos         20.927 bytes
+               5 dirs  407.442.350.080 bytes libres
+
+C:\Users\Fran\Desktop\FUW\.git>cd ..
+
+C:\Users\Fran\Desktop\FUW>cd docs
+
+C:\Users\Fran\Desktop\FUW\docs>cd _docs
+
+C:\Users\Fran\Desktop\FUW\docs\_docs>cd componentes-pc
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: C249-DBC9
+
+ Directorio de C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc
+
+22/01/2018  12:34    <DIR>          .
+22/01/2018  12:34    <DIR>          ..
+22/01/2018  12:34                36 carcasa.md
+22/01/2018  12:34                56 conectores-y-buses.md
+22/01/2018  12:34                52 fuente-alimentacion.md
+22/01/2018  12:34                36 index.md
+22/01/2018  12:34                40 memoria-ram.md
+22/01/2018  12:34                44 microprocesador.md
+22/01/2018  12:34                66 perifericos.md
+22/01/2018  12:34                39 placa-base.md
+22/01/2018  12:34                45 que-es-un-pc.md
+               9 archivos            414 bytes
+               2 dirs  407.442.350.080 bytes libres
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>notepad que-es-un-pc.md
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git add .
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   que-es-un-pc.md
+
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git commit -m "primer commit de fran"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Fran@Frankenstein.(none)')
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git config --global user.mail "fefi.todopro@gmail.com"
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git config --global user.name "Francisco J. Glez. Pérez"
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git commit -m "primer commit de fran"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Fran@Frankenstein.(none)')
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git config --global user.email "fefi.todopro@gmail.com"
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git commit -m "primer commit de fran"
+[master c7d5dc8] primer commit de fran
+ 1 file changed, 18 insertions(+), 2 deletions(-)
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git remote add origin https://github.com/fvarrui/FUW.git
+fatal: remote origin already exists.
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>git push origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 669 bytes | 669.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/fvarrui/FUW.git
+   dcef123..c7d5dc8  master -> master
+
+C:\Users\Fran\Desktop\FUW\docs\_docs\componentes-pc>
