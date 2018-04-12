@@ -3,7 +3,7 @@ title: Conectores y buses externos
 author: Francisco J. Glez Pérez
 ---
 
-#El panel lateral de la placa.
+# El panel lateral de la placa.
 
 * Este panel contiene los __conectores__ para algunos de los elementos de la placa.
 
@@ -23,7 +23,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El  puerto serie (COM).
+## El  puerto serie (COM).
 
 * Su principal utilidad es como __puerto de comunicaciones__.
 * Tiene 9 pines.
@@ -40,7 +40,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto paralelo (LPT).
+## El puerto paralelo (LPT).
 
 > Line Print Terminal .
 
@@ -55,7 +55,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto USB.
+## El puerto USB.
 
 > Bus serie universal (Universal Serial Bus). 
 
@@ -84,7 +84,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto Firewire. 
+## El puerto Firewire. 
 
 ![Logo de Firewire][8]
 
@@ -105,7 +105,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##Thunderbolt.
+## Thunderbolt.
 
 ![Logo de Thunderbolt][10]
 
@@ -128,7 +128,7 @@ author: Francisco J. Glez Pérez
 ![Gráfica de comparación de velocidades][12]
 > Comparativa USB, FireWire, Express Card, Thunderbolt
 
-###Comparativa USB, Firewire y SATA.
+### Comparativa USB, Firewire y SATA.
 
 |     Puerto     | Gbps |
 | :------------: | :--: |
@@ -144,7 +144,7 @@ author: Francisco J. Glez Pérez
 
 
 
-#Puertos para vídeo.
+# Puertos para vídeo.
 
 * El puerto VGA.
 * El puerto VDI.
@@ -154,7 +154,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto VGA.
+## El puerto VGA.
 
 * El puerto __Video Graphics Array__.
 * Se utiliza para enviar una _señal de  vídeo analógica_.
@@ -172,7 +172,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto DVI.
+## El puerto DVI.
 * El puerto __Digital Visual Interface__.
 
   ![Conector DVI][15]	![Conectores DVI y VGA][16]
@@ -194,7 +194,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto HDMI.
+## El puerto HDMI.
 
 ![Logo HDMI][19]
 
@@ -214,7 +214,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##Los puertos RCA de vídeo.
+## Los puertos RCA de vídeo.
 
 ![onector RCA amarillo][22]
 
@@ -230,7 +230,7 @@ author: Francisco J. Glez Pérez
 
 
 
-##El puerto S‐Vídeo.
+## El puerto S‐Vídeo.
 
 * El puerto __Separate-Vídeo__.
 
@@ -249,14 +249,14 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 
 
 
-#Los puertos para audio.
+# Los puertos para audio.
 
 * El puerto Jack.
 * Los puertos RCA de audio.
 
 
 
-##Los puertos Jack.
+## Los puertos Jack.
 
 * Se utiliza para transmitir __señal de audio analógica__.
 
@@ -279,7 +279,7 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 > Esquema 5.1 y 7.1, se agregaria aquí.
 
 
-##Los puertos RCAde audio.
+## Los puertos RCAde audio.
 * Se utilizan para __transmitir la señal de audio__.
 * Puede ser __tanto analógica como digital__.
 * Código de colores:
@@ -305,14 +305,14 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 
 
 
-#Los puertos para comunicaciones.
+# Los puertos para comunicaciones.
 
 * El puerto RJ-11.
 * El puerto RJ-45.
 
 
 
-##El puerto RJ-11.
+## El puerto RJ-11.
 
 * Puerto __específico del módem__.
 
@@ -331,7 +331,7 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 
 
 
-##El puerto  RJ-45.
+## El puerto  RJ-45.
 
 * También se le llama __Ethernet__.
 * Se emplea para conectar:
@@ -354,7 +354,7 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 
 
 
-#Los puertos inalámbricos
+# Los puertos inalámbricos
 
 * El puerto WiFi.
 * El puerto Bluetooth.
@@ -362,7 +362,7 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 
 
 
-##El puerto WiFi
+## El puerto WiFi
 
 ![Logo de WiFi][40]
 
@@ -382,7 +382,7 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 ![USB con WiFi][42]
 
 
-##El puerto Bluetooth. 
+## El puerto Bluetooth. 
 
 ![Logo de Bluetooth][43]
 
@@ -405,7 +405,7 @@ Al igual  que los RCA, cada vez  se utilizan menos, siendo remplazados por HDMI 
 
 
 
-##El puerto infrarrojos. 
+## El puerto infrarrojos. 
 
 * Puerto __IrDA (InfraRed Data Association)__.
 * Se utiliza para transmitir datos de un equipo a otro o a un periférico.
