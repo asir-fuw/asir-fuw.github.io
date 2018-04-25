@@ -84,37 +84,37 @@ Nos permite realizar el chequeo del disco de dos maneras: 1) cargando en un pend
 
 2. Bajamos un poco en la página hasta donde dice "Instrucciones" y damos clic en el botón azul que dice "Descargar"
 
-	![N|Solid](imagenes/imagen1.png)
+	![](imagenes/imagen1.png)
 
 3. Cuando termine, hacemos clic en la descarga para ejecutar la instalación del programa
 
-	![N|Solid](imagenes/imagen2.png)
+	![](imagenes/imagen2.png)
 
 4. En el asistente de instalación pulsamos "Siguiente", aceptamos los términos de licencia y continuamos pulsando "Siguiente" hasta completa la instalación:
 
-	![N|Solid](imagenes/imagen3.png)
+	![](imagenes/imagen3.png)
 
-	![N|Solid](imagenes/imagen4.png)
+	![](imagenes/imagen4.png)
 
-	![N|Solid](imagenes/imagen5.png)
+	![](imagenes/imagen5.png)
 
 #### Pasos para realizar el chequeo de disco
 
 1. Una vez abierto el programa nos habrá chequeado todos los discos que tenemos en el equipo 
 
-	![N|Solid](imagenes/imagen6.png)
+	![](imagenes/imagen6.png)
 
 2. Para hacer una acción, tendremos que marcarlo en la casilla y en "Pruebas Básicas" seleccionar Reparar todas > Reparar Larga o Corta. En mi caso como el disco duro de este ordenador está bien, haré la prueba corta. Si tenemos un disco duro que creemos que está mal porque nos ha dado algún fallo o no va como debería haríamos primero la prueba corta para ver si nos da algún fallo, y si nos sigue sin dar fallo realizar la larga, donde lo más probable que en esta prueba sí de con el fallo por ejemplo diciendo que sector del disco duro está dañado.
 
-	![N|Solid](imagenes/imagen7.png)
+	![](imagenes/imagen7.png)
 
 3. Una vez dado, a la derecha nos dirá qué plan de chequeo hemos seleccionado y el proceso que le queda para acabar en porcentaje:
 
-   ![N|Solid](imagenes/imagen8.png)
+   ![](imagenes/imagen8.png)
 
 4. Una vez que acabe nos aparecerá al 100%, y en caso de fallo nos mostraría el error. 
 
-   ![N|Solid](imagenes/imagen9.png)
+   ![](imagenes/imagen9.png)
 
 Y con estos pasos simples concluye el tutorial de como chequear un disco duro.
 
