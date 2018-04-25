@@ -18,7 +18,7 @@
   - componentes-pc/fuente-alimentacion
   - componentes-pc/carcasa
 
-  - title: Software de utilidad y propósito general
+- title: Software de utilidad y propósito general
   docs:
   - software/testeo/tutorial/index
   
