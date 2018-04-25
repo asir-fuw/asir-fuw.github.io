@@ -18,6 +18,10 @@
   - componentes-pc/fuente-alimentacion
   - componentes-pc/carcasa
 
+  - title: Software de utilidad y propósito general
+  docs:
+  - software/testeo/tutorial/index
+  
 - title: Arduino
   docs:
   - arduino/atmel-studio
