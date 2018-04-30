@@ -14,3 +14,4 @@ title: Software de testeo y verificación de equipos
 * [Detectar hardware](detectar-hardware)
 * [Rendimiento de la CPU](rendimiento-cpu)
 
+
