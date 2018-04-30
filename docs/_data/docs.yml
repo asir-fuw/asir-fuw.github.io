@@ -20,6 +20,7 @@
 
 - title: Software de utilidad y propósito general
   docs:
+  - software/admin4x4/index
   - software/testeo/tutorial/index
   
 - title: Arduino
