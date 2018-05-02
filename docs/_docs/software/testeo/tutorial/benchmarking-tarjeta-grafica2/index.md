@@ -20,44 +20,44 @@ En este tutorial vamos a utilizar tres aplicaciones diferentes para realizar pru
 
 1. Dentro de la página tenemos varias opciones de productos. En nuestro caso, nos decantamos por el Valley.
 
-	![Descargar Valley](Imagenes\Web.PNG)
+	![Descargar Valley](imagenes/Web.PNG)
 
-	![Descargar Valley](Imagenes\opciones.PNG)
+	![Descargar Valley](imagenes/opciones.PNG)
 
-	![Descargar Valley](Imagenes\Valley.PNG)
+	![Descargar Valley](imagenes/Valley.PNG)
 
 2. Seguimos los pasos correspondientes a la instalación.
 
-	![Instalación](Imagenes\Setup.PNG)
+	![Instalación](imagenes/Setup.PNG)
 
 3. Ya dentro del software, cambiaremos las opciones ofrecidas para conocer, en este caso; el máximo rendimiento de la tarjeta gráfica.
 
-	![configurar opciones](Imagenes\Valley3.PNG)
+	![configurar opciones](imagenes/Valley3.PNG)
 
-	![Configurar opciones](Imagenes\Valley5.PNG)
+	![Configurar opciones](imagenes/Valley5.PNG)
 
 3. Iniciamos la prueba de rendimiento pulsando el botón "Benchmark" de la esquina superior izquierda.
-	![Prueba de rendimiento](Imagenes\Valley6.PNG)
+	![Prueba de rendimiento](imagenes/Valley6.PNG)
 
 ### 3D MARK
 
 Esta aplicación podemos tanto descargar desde el sitio web de su desarrollador como a través de Steam:
 
-![3DMark en Steam](Imagenes\steam.PNG)
+![3DMark en Steam](imagenes/steam.PNG)
 
 En este caso se trata de un software de pago:
 
-![Comprar 3DMark](imagenes\3Dmarkpay.PNG)
+![Comprar 3DMark](imagenes/3Dmarkpay.PNG)
 
 ### Resident Evil 6 Benchmark
 
-![RE6Bench1](Imagenes\Steam3.PNG)
+![RE6Bench1](imagenes/Steam3.PNG)
 
-![RE6Bench2](Imagenes\RE0.PNG)
+![RE6Bench2](imagenes/RE0.PNG)
 
-![RE6Bench3](Imagenes\RE.PNG)
+![RE6Bench3](imagenes/RE.PNG)
 
-![RE6Bench4](Imagenes\RE2.PNG)
+![RE6Bench4](imagenes/RE2.PNG)
 
 ## Autores
 
