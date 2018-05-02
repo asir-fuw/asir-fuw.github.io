@@ -12,7 +12,7 @@ title: Cambiar las propiedades de un conjunto de ficheros en bloque
 
 3. Al finalizar la descarga, ejecutamos el instalador y lo primero que hacemos es seleccionar el idioma:
 
-![Selección de idioma](imagenes/5.png)
+   ![Selección de idioma](imagenes/5.png)
 
 4. Aceptamos el acuerdo y pulsamos **Siguiente**: 
 
