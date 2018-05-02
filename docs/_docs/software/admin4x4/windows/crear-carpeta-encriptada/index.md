@@ -1,5 +1,5 @@
 ---
-title: Crear una carpeta cuyo contenido esté encriptado, de forma que sólo se podrá acceder a la misma con una contraseña.
+title: Crear una carpeta cuyo contenido esté encriptado
 ---
 
 Para encriptar directorios en Windows el proceso es realmente sencillo, ya que el propio sistema operativo cuenta con las herramientas necesarias.

@@ -1,5 +1,5 @@
 ---
-title: Tutorial sobre sobre como entrar y chatear en un canal IRC
+title: Chatear en un canal IRC
 ---
 
 1. Lo primero que debemos hacer es buscar un chat en Google (por ejemplo); en este caso buscaremos el chat de Terra.
@@ -41,3 +41,7 @@ title: Tutorial sobre sobre como entrar y chatear en un canal IRC
    ![](imagenes/ajustesaparienciaterra.JPG)
 
    ![](imagenes/ajustesmensajesterra.JPG)
+
+## Autor
+
+* Juan Manuel Brocal Braun
