@@ -1,9 +1,9 @@
 lang: es-ES
 title: Fundamentos de Hardware
-email: fran.profe.icm@gmail.com
+email: fvarrui@canariaseducacion.es
 description: Apuntes, tutoriales y actividades del módulo profesional FUW de 1ºASIR.
 
-baseurl: /FUW
+baseurl: /
 
 bootwatch: paper
 
